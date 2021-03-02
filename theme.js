@@ -1,25 +1,28 @@
-window.onscroll = function() {
-    myFunction();
-    animation();
+window.onscroll = function () {
+  myFunction();
+  animation();
 };
-var cordinates = document.getElementById("test");
+// var cordinates = document.getElementById("test");
 
 function myFunction() {
-    if (window.pageYOffset >= 2) {
-        cordinates.classList.add("animate");
-    } else {
-        cordinates.classList.remove("animate");
-    }
+  var cordinates = document.getElementById("test");
+  if (window.pageYOffset >= 2) {
+    cordinates.classList.add("animate");
+  } else {
+    cordinates.classList.remove("animate");
+  }
 }
-var frst = document.querySelector("#domi");
-window.addEventListener("scroll", animation);
+// var frst = document.querySelector("#domi");
+// window.addEventListener("scroll", animation);
 
 function animation() {
-    var cord = frst.getBoundingClientRect();
-    if (cord.top <= window.innerHeight) {
-        frst.classList.add("animate__bounce");
-        console.log(cord);
-    }
+  var frst = document.querySelector("#domi");
+  var cord = frst.getBoundingClientRect();
+  if (cord.top <= window.innerHeight) {
+    frst.classList.add("animate__bounce");
+    console.log(window.innerHeight);
+    console.log(cord.top);
+  }
 }
 // var second = document.querySelectorAll(".centered h1");
 // window.addEventListener("scroll", anima);
