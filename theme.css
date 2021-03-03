@@ -222,7 +222,10 @@ body {
 
 .twitter {
   background-image: url("./images/cd2.jpg");
-  background-size: conver;
+
+  background-size: cover;
+
+  position: relative;
 
   height: 250px;
 
@@ -319,7 +322,7 @@ body {
 .aga {
   font-size: 20px;
   color: red;
-  font-weight: 800;
+  font-weight: 600;
   word-spacing: 2px;
   letter-spacing: 3px;
 }
@@ -418,10 +421,11 @@ body {
 .booking {
   background-image: url("./images/p6.jpg");
   background-size: cover;
-  height: 600px;
+  height: 510px;
   /* margin-left: -20; */
   text-align: center;
   color: white;
+  margin-top: -20;
 }
 .nov1 {
   background-color: red;
@@ -430,7 +434,7 @@ body {
 
 .lorem {
   color: maroon;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 .booking h1 {
@@ -792,8 +796,15 @@ body {
   font-size: 26px;
   font-weight: bold;
 }
+.googl {
+  font-family: sans-serif;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  line-height: 24px;
+}
 .hooter {
   background-color: black;
+  color: white;
 }
 .hooter i {
   font-size: xx-large;
@@ -809,13 +820,16 @@ body {
   color: maroon;
   font-weight: bold;
 }
-.bhhh {
+/* .bhhh {
   border-bottom: 0px;
   position: relative;
   top: 136px;
-}
+} */
 .aaa {
+  font-size: 20px;
+
   width: 33%;
+  background-color: brown;
 }
 .ccc {
   border-bottom: 0px;
@@ -834,6 +848,9 @@ body {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid grey;
+}
+.frm1 {
+  color: white;
 }
 .uyt {
   height: 100px;
