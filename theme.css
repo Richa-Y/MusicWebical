@@ -5,7 +5,7 @@ body {
 }
 .animate {
   position: fixed;
-  background-color: black;
+  background-color: grey;
   width: 100%;
 }
 #logoo {
@@ -48,7 +48,7 @@ body {
   /* top:0%; */
 }
 .myback:hover {
-  background-color: black;
+  background-color: grey;
 }
 /* carosel */
 .carousel-inner {
@@ -78,14 +78,17 @@ body {
 }
 .carousel-caption h1 {
   font-size: 70px;
-  color: white;
+  /* color: white; */
+  color: red;
   letter-spacing: 24px;
   margin-bottom: 12px;
+  font-weight: 900;
   font-family: Garamond;
 }
 .carousel-caption h2 {
   margin: 15px;
-  color: white;
+  /* color: white; */
+  color: red;
 }
 /* .mercedes img {
   height: 100px;
@@ -194,8 +197,10 @@ body {
   height: 40px;
   font-weight: bold;
   border: none;
+  padding: 8px;
 }
 .rock-btn2 {
+  padding: 8px;
   border: none;
   background-color: blue;
   /* width: 40%; */
@@ -327,10 +332,12 @@ body {
   letter-spacing: 3px;
 }
 .aga2 {
-  font-family: sans-serif;
+  /* font-family: cursive; */
   word-spacing: 2px;
   letter-spacing: 3px;
+  font-size: 18px;
   color: white;
+  /* line-height: 30px; */
 }
 .aga3 {
   font-size: 25px;
@@ -419,7 +426,7 @@ body {
   font-weight: bold;
 }
 .booking {
-  background-image: url("./images/p6.jpg");
+  background-image: url("./images/w3.jpg");
   background-size: cover;
   height: 510px;
   /* margin-left: -20; */
@@ -432,18 +439,32 @@ body {
   color: white;
 }
 
+.booking h5 {
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
 .lorem {
-  color: maroon;
+  color: red;
   font-size: 24px;
-  font-weight: bold;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  font-weight: 900;
+}
+.booking p {
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 .booking h1 {
   font-size: 3.2rem;
   margin-top: 20px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
 }
 .booking button {
-  background-color: maroon;
+  background-color: red;
   color: white;
+  margin-top: 40px;
 }
 .booking button:hover {
   background-color: mediumpurple;
@@ -828,8 +849,10 @@ body {
 .aaa {
   font-size: 20px;
 
-  width: 33%;
-  background-color: brown;
+  width: 33.3%;
+  background-color: blue;
+  color: white;
+  letter-spacing: 2px;
 }
 .ccc {
   border-bottom: 0px;
@@ -853,6 +876,9 @@ body {
   color: white;
 }
 .uyt {
+  padding: 2px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
   height: 100px;
   background-color: tomato;
 }

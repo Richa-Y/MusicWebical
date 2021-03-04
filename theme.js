@@ -37,8 +37,11 @@ function myFunction() {
 
 function Say() {
   var change = document.querySelector(".rombo2");
-  change.innerHTML = "Fun Fun !!!!";
-  change.style.color = "blue";
+  // var count = 0;
+  var interval = setTimeout(function () {
+    change.innerHTML = "Fun Fun !!!!";
+    change.style.color = "red";
+  }, 500);
 }
 function SayH() {
   var change2 = document.querySelector(".rombo3");
@@ -56,14 +59,16 @@ function sun() {
   alert("Check your details again before submitting .");
   display.innerHTML += text;
 }
-var btn = document.querySelectorAll(".rock-btn");
-for (var i = 0; i < btn.length; i++) {
-  btn[i].addEventListener("mousemove", function () {
-    btn.innerHTML = "Thank You";
-    // btn[i].style.color = "red";
-    // console.log("kkkk");
-  });
-}
+// var btn = document.querySelectorAll(".rock-btn");
+// for (var i = 0; i < btn.length; i++) {
+//   if (btn[i].addEventListener("mousemove")) {
+//     btn[i].addEventListener("mousemove", function () {
+//       this.innerText = "Thank You";
+//     });
+//   } else {
+//     this.innerText = "Music is life";
+//   }
+// }
 var hp = document.querySelector(".heavy");
 hp.addEventListener("click", function () {
   hp.innerHTML = "Thank You ";
